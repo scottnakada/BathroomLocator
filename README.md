@@ -33,13 +33,9 @@
         <li>Change Password for your E-Mail/Password account</li>
         <li>Modify the menu system if logged in/logged out</li>
         <li>Read the users GPS location, and show a map of nearby bathrooms</li>
-        <li>Bathrooms are flagged on a scale from 1-5, where 5 is the cleanest</li>
-        <li>Bathrooms are flagged with a key if a key is required to use the bathroom</li>
-        <li>Bathrooms are flagged with a $ if a purchase is required, or it is necessary to pay
-			to use the bathroom
-        </li>
-        <li>Bathrooms are flagged with a lock, if the bathroom is in a secured building, which
-			requires a special badge to access it.
+        <li>Allow the user to locate a clean, private restroom on a map</li>
+        <li>After selecting the restroom, the user can buy access to the restroom on a one time basis,
+             a 6 month membership, or annual membership.  Purchases can be made via Paypal.
         </li>
       </ol>
     </h4>
