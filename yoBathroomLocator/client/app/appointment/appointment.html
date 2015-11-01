@@ -1,0 +1,51 @@
+<div class="col-md-12">
+    <center>
+        <h1>Make an appointment for Location {{id}}</h1>
+
+        <table border="2">
+            <thead>
+            <tr>
+                <th>Time</th>
+                <th>Book Time Slot</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-init="booked5pm=true">
+                <td>5pm</td>
+                <td>
+                    <button ng-hide="booked5pm" ng-click="booked5pm=true">Book This Timeslot</button>
+                    <b ng-show="booked5pm">Already Booked</b>
+                </td>
+            </tr>
+            <tr ng-init="booked6pm=false">
+                <td>6pm</td>
+                <td>
+                    <button ng-hide="booked6pm" ng-click="booked6pm=true">Book This Timeslot</button>
+                    <b ng-show="booked6pm">Already Booked</b>
+                </td>
+            </tr>
+            <tr ng-init="booked7pm=false">
+                <td>7pm</td>
+                <td>
+                    <button ng-hide="booked7pm" ng-click="booked7pm=true">Book This Timeslot</button>
+                    <b ng-show="booked7pm">Already Booked</b>
+                </td>
+            </tr>
+            <tr ng-init="booked8pm=false">
+                <td>8pm</td>
+                <td>
+                    <button ng-hide="booked8pm" ng-click="booked8pm=true">Book This Timeslot</button>
+                    <b ng-show="booked8pm">Already Booked</b>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+        <a href="/details/{{id}}">
+            <button>Return to Details screen</button>
+        </a><br>
+        <a href="/bathMap">
+            <button>Select another location</button>
+        </a>
+    </center>
+</div>
