@@ -15,7 +15,7 @@ angular.module('yoBathroomLocatorApp', [
 ])
 
     // Define the constant which defines the Firebase database for this project
-    .constant('FURL', 'https://yoShopping.firebaseio.com/')
+    .constant('FURL', 'https://foodflag.firebaseio.com/')
 
     .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         $urlRouterProvider
